@@ -10,9 +10,9 @@ The **easy_perception_deployment** ROS2 package outputs streamlined custom messa
 
 .. code-block:: bash
 
-    /processor/epd_p1_output
-    /processor/epd_p2_output
-    /processor/epd_p3_output
+    /easy_perception_deployment/epd_p1_output
+    /easy_perception_deployment/epd_p2_output
+    /easy_perception_deployment/epd_p3_output
 
 Follow the instructions below to view these messages:
 
@@ -22,8 +22,8 @@ Follow the instructions below to view these messages:
     source /opt/ros/foxy/setup.bash
     source ./epd_msgs/install/setup.bash
     # For Precision Level 1 output
-    ros2 topic echo /processor/epd_p1_output
+    ros2 topic echo /easy_perception_deployment/epd_p1_output
     # For Precision Level 2 output
-    ros2 topic echo /processor/epd_p2_output
+    ros2 topic echo /easy_perception_deployment/epd_p2_output
     # For Precision Level 3 output
-    ros2 topic echo /processor/epd_p3_output
+    ros2 topic echo /easy_perception_deployment/epd_p3_output

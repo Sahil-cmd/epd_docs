@@ -3,5 +3,5 @@
 processor
 =========
 
-.. doxygenfile:: processor.hpp
+.. doxygenfile:: easy_perception_deployment.hpp
    :project: easy_perception_deployment

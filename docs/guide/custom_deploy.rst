@@ -145,8 +145,8 @@ You can use the following commands to edit **camera_to_plane_distance_mm** ROS2 
 .. code-block:: bash
 
    source /opt/ros/foxy/setup.bash
-   ros2 param set /processor camera_to_plane_distance_mm <double value>
-   #eg. ros2 param set /processor camera_to_plane_distance_mm 450
+   ros2 param set /easy_perception_deployment camera_to_plane_distance_mm <double value>
+   #eg. ros2 param set /easy_perception_deployment camera_to_plane_distance_mm 450
 
 Its results are outputted as **EPDObjectLocalization.msg** with each object represented as **LocalizedObject.msg**.
 
@@ -217,8 +217,8 @@ You can use the following commands to edit **camera_to_plane_distance_mm** ROS2 
 .. code-block:: bash
 
    source /opt/ros/foxy/setup.bash
-   ros2 param set /processor camera_to_plane_distance_mm <double value>
-   #eg. ros2 param set /processor camera_to_plane_distance_mm 450
+   ros2 param set /easy_perception_deployment camera_to_plane_distance_mm <double value>
+   #eg. ros2 param set /easy_perception_deployment camera_to_plane_distance_mm 450
 
 
 Its results are outputted as **EPDObjectTracking.msg** with each object represented as **LocalizedObject.msg** and tagged uniquely with corresponding integer label.
